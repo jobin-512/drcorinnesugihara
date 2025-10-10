@@ -43,7 +43,7 @@
 </script>
 
 <!-- Top Bar -->
-<div class="bg-pink-500 text-white text-sm flex flex-col md:flex-row md:items-center justify-around px-4 py-2 text-center md:text-left">
+<div class="bg-[#DD47A0] text-white text-sm flex flex-col md:flex-row md:items-center justify-around px-4 py-2 text-center md:text-left">
   <span class="mb-1 md:mb-0">⚠️ Please call our office to schedule your appointment.</span>
   <div class="flex flex-wrap justify-center md:justify-end text-sm text-white gap-4">
     <span class="flex items-center gap-1">📞 +1 949-644-7433</span>
