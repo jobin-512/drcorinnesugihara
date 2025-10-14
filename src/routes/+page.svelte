@@ -5,6 +5,12 @@
     import s3 from "$lib/assets/home/s3.png"
     import s4 from "$lib/assets/home/s4.png"
     import mission from "$lib/assets/home/mission.png"
+    import doctor from "$lib/assets/home/doctor.webp"
+    import t1 from "$lib/assets/home/t1.webp"
+    import ask from "$lib/assets/home/ask.webp"
+
+    import Article from "$lib/components/article.svelte"
+    import Cta from "$lib/components/cta.svelte"
 
 </script>
 
@@ -230,6 +236,12 @@
 
 <section class="py-16 md:py-24 bg-white">
   <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16">
+    <div class="md:w-1/2 flex justify-center">
+      <div class="relative  overflow-hidden flex items-center justify-center p-4">
+        <img src={doctor} alt="Dr. Corinne Sugihara" class=" w-fit h-full object-cover" />
+    </div>
+    </div>
+
     <div class="md:w-1/2 text-center md:text-left">
       <p class="text-lg text-[#5C2869] font-semibold mb-2">About Dr. Corinne Sugihara</p>
       <h2 class="text-4xl md:text-5xl font-extrabold text-[#00234C] mb-4 leading-tight">Hello This Is Dr. Corinne Sugihara, MD</h2>
@@ -253,10 +265,98 @@
         </svg>
       </button>
     </div>
-    <div class="md:w-1/2 flex justify-center">
-      <div class="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden bg-purple-100 flex items-center justify-center p-4">
-        <img src="/images/doctor.webp" alt="Dr. Corinne Sugihara" class="rounded-full w-full h-full object-cover" />
-    </div>
+  </div>
+</section>
+
+
+<section class="py-16 bg-[#FEEEF1]">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold text-[#4A0C59] mb-4">People Say About Us</h2>
+    <p class="text-md text-gray-600 max-w-2xl mx-auto mb-12">
+      Proin viverra, purus at bibendum molestie, lorem mi dignissim mauris, sit amet
+      elementum massa augue vel massa
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Testimonial Card 1 -->
+      <div class="bg-white rounded-lg shadow-lg p-8 relative overflow-hidden group">
+        <div class="flex justify-center mb-4">
+          <div class="w-25 h-25 rounded-full bg-gray-200 flex items-center justify-center">
+            <img src={t1} alt="User Icon" class="object-cover rounded-full" />
+          </div>
+        </div>
+        <p class="text-gray-700 text-left mb-4">
+          Cras nibh diam, semper eu bibendum id,
+          interdum ut neque. Nunc sed lacinia nisl,
+          molestie pulvinar nunc. Suspendisse vel
+          orci eu mauris consectetur viverra.
+        </p>
+        <p class="font-bold text-[#4A0C59] text-left">Matthew Ray</p>
+        <p class="text-sm text-gray-500 text-left">Skin Tightening</p>
+      </div>
+
+      <!-- Testimonial Card 2 -->
+      <div class="bg-white rounded-lg shadow-lg p-8 relative overflow-hidden group">
+        <div class="flex justify-center mb-4">
+          <div class="w-25 h-25 rounded-full bg-gray-200 flex items-center justify-center">
+            <img src={t1} alt="User Icon" class="object-cover rounded-full" />
+          </div>
+        </div>
+        <p class="text-gray-700 text-left mb-4">
+          Cras nibh diam, semper eu bibendum id,
+          interdum ut neque. Nunc sed lacinia nisl,
+          molestie pulvinar nunc. Suspendisse vel
+          orci eu mauris consectetur viverra.
+        </p>
+        <p class="font-bold text-[#4A0C59] text-left">Matthew Ray</p>
+        <p class="text-sm text-gray-500 text-left">Bladder Leaks</p>
+      </div>
+
+      <!-- Testimonial Card 3 -->
+      <div class="bg-white rounded-lg shadow-lg p-8 relative overflow-hidden group">
+        <div class="flex justify-center mb-4">
+          <div class="w-25 h-25 rounded-full bg-gray-200 flex items-center justify-center">
+            <img src={t1} alt="User Icon" class="object-cover rounded-full" />
+          </div>
+        </div>
+        <p class="text-gray-700 text-left mb-4">
+          Cras nibh diam, semper eu bibendum id,
+          interdum ut neque. Nunc sed lacinia nisl,
+          molestie pulvinar nunc. Suspendisse vel
+          orci eu mauris consectetur viverra.
+        </p>
+        <p class="font-bold text-[#4A0C59] text-left">Matthew Ray</p>
+        <p class="text-sm text-gray-500 text-left">Recurrent UTIs</p>
+      </div>
     </div>
   </div>
 </section>
+
+<section class="py-16 bg-[#E5E5E5]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
+    <!-- Image Section -->
+    <div class="lg:w-1/2 flex justify-center mb-8 lg:mb-0">
+      <img src={ask} alt="EvolveX Club" class="rounded-lg shadow-lg max-w-full h-auto" />
+    </div>
+
+    <!-- Content Section -->
+    <div class="lg:w-1/2 text-center lg:text-left lg:pl-12">
+      <h2 class="text-4xl sm:text-5xl lg:text-5xl font-extrabold text-[#4A0C59] leading-tight mb-6">
+        Ask About EvolveX <br class="hidden md:inline" />Club
+      </h2>
+      <p class="text-lg text-gray-700 mb-8">
+        Our monthly subscription that allows you to get in shape and stay in shape
+      </p>
+      <button class="bg-[#7E57C2] hover:bg-[#673AB7] text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 flex items-center justify-center lg:inline-flex">
+        Learn About EvolveX Club
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<Cta/>
+
+<Article/>
