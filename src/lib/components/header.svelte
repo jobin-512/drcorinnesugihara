@@ -13,16 +13,7 @@
 
   const navItems = [
     { name: 'Home', href: '/' },
-    {
-      name: 'Treatments',
-      dropdown: true,
-      dropdownItems: [
-        { name: 'Aesthetic Services', href: '/treatments/aesthetics' },
-        { name: 'Injectables', href: '/treatments/injectables' },
-        { name: 'Laser Treatments', href: '/treatments/laser' },
-        { name: 'Skincare', href: '/treatments/skincare' }
-      ]
-    },
+    { name: 'Treatments', href: '/services' },
     { name: 'About Us', href: '/about' },
     { name: 'Contact Us', href: '/contact' },
     { name: 'Newly Published Book', href: '/book' },
