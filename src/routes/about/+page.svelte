@@ -14,7 +14,6 @@
   let profilePhotoWrap: HTMLElement;
   let bioPanel: HTMLElement;
   let teamEl: HTMLElement;
-  let insuranceEl: HTMLElement;
   let logoRow: HTMLElement;
 
   // Team list (kept as text list — no grid cards)
@@ -295,63 +294,6 @@
     </div>
   </section>
 
-  <!-- INSURANCE (redesigned with logos and info panel) -->
-  <section bind:this={insuranceEl} class="bg-teal-50">
-    <div class="container mx-auto px-6 md:px-12 lg:px-20 py-12">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-        <!-- Info panel -->
-        <div class="lg:col-span-2">
-          <h3 class="text-2xl font-serif text-indigo-900 ins-anim">Insurance</h3>
-          <p class="ins-anim mt-3 text-gray-700 max-w-3xl">
-            We accept most PPO insurance plans, including large national and regional carriers. Out of network? We also accept cash payments and will provide documentation to submit claims if needed.
-          </p>
-
-          <div class="ins-anim mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div class="bg-white p-4 rounded-xl shadow-sm">
-              <div class="font-semibold text-indigo-800">Most PPO plans</div>
-              <div class="text-sm text-gray-600 mt-2">Anthem Blue Cross • Blue Shield of California • Aetna • Cigna • UnitedHealthcare • Humana</div>
-            </div>
-
-            <div class="bg-white p-4 rounded-xl shadow-sm">
-              <div class="font-semibold text-indigo-800">HMO partners</div>
-              <div class="text-sm text-gray-600 mt-2">Providence • (others listed on request)</div>
-            </div>
-          </div>
-
-          <p class="ins-anim mt-4 text-sm text-gray-600">
-            If you are unsure about coverage, call our office — we’re happy to check benefits before your visit.
-          </p>
-        </div>
-
-        <!-- Logo marquee / visual -->
-        <div class="lg:col-span-1">
-          <div class="bg-white rounded-2xl p-4 shadow-sm">
-            <div class="text-sm font-medium text-indigo-800 mb-4 ins-anim">We accept (select carriers)</div>
-            <div class="overflow-hidden rounded-lg">
-              <div class="flex gap-6 whitespace-nowrap will-change-transform" bind:this={logoRow}>
-                {#each insurers as src, i}
-                  <div class="logo-item inline-flex items-center justify-center min-w-[140px] h-20 bg-white p-3 rounded-md shadow-sm">
-                    <img src={src} alt={"Insurer " + (i + 1)} class="max-h-10 object-contain" />
-                  </div>
-                {/each}
-
-                <!-- Duplicate for continuous loop -->
-                {#each insurers as src, i}
-                  <div class="logo-item inline-flex items-center justify-center min-w-[140px] h-20 bg-white p-3 rounded-md shadow-sm">
-                    <img src={src} alt={"Insurer dup " + (i + 1)} class="max-h-10 object-contain" />
-                  </div>
-                {/each}
-              </div>
-            </div>
-
-            <div class="mt-4 text-xs text-gray-500 ins-anim">
-              Out of network? We accept cash payments and will provide statements for reimbursement.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 </div>
 
