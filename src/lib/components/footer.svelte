@@ -12,7 +12,7 @@
     style="background-image: url('{footer}');"
   ></div>
 
-  <div class="relative grid grid-cols-1 md:grid-cols-5 gap-10 z-10">
+  <div class="relative grid grid-cols-1 md:grid-cols-4 gap-10 z-10">
     <!-- Column 1: Logo & Contact -->
     <div class="space-y-4">
       <h2 class="text-white text-xl font-semibold">
@@ -88,34 +88,6 @@
       </ul>
     </div>
 
-    <!-- Column 5: Newsletter -->
-    <div class="space-y-5">
-      <h3 class="text-white font-semibold text-lg mb-4">Newsletters</h3>
-      <p class="text-sm text-gray-400">
-        Sed ut perspiciatis unde omnis natus error sit voluptatem
-      </p>
-
-      <div class="relative w-full">
-        <input
-          type="email"
-          placeholder="Email Address"
-          class="w-full rounded-full border border-gray-400 bg-transparent text-white py-3 pl-5 pr-12 placeholder-gray-400 focus:ring-2 focus:ring-pink-400 focus:outline-none"
-        />
-        <button
-          class="absolute right-2 top-1/2 -translate-y-1/2 bg-pink-500 hover:bg-pink-600 text-white rounded-full p-2"
-          aria-label="Subscribe"
-        >
-          <i class="fa-solid fa-arrow-right"></i>
-        </button>
-      </div>
-
-      <div class="pt-5">
-        <h4 class="text-white font-semibold flex items-center gap-2">
-          <i class="fa-regular fa-clock text-pink-300"></i> Opening Hours
-        </h4>
-        <p class="text-sm text-gray-300 mt-1">Sun - Friday, 08:00 am - 05:00 pm</p>
-      </div>
-    </div>
   </div>
 
   <!-- Bottom -->
