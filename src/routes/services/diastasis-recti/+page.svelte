@@ -2,6 +2,11 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import m1 from "$lib/assets/diastasis-recti/1.jpg";
+  import m2 from "$lib/assets/diastasis-recti/2.jpg";
+  import m3 from "$lib/assets/diastasis-recti/3.jpg";
+  import m4 from "$lib/assets/diastasis-recti/4.jpg";
+
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -98,6 +103,27 @@ Take control of your postpartum journey. Explore Diastasis Recti treatment with 
     <div class="text-lg leading-relaxed space-y-6 fade-in">
       {@html body.replace(/\n/g, "<br><br>")}
     </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m1} alt="skin tightening treatment" class="h-full">
+        </div>
+        <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m2} alt="skin tightening treatment" class="h-full">
+        </div>
+
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-6">
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m3} alt="skin tightening treatment" class="h-full">
+        </div>
+        <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m4} alt="skin tightening treatment" class="h-full">
+        </div>
+
+    </div>
+
 
 
     <!-- CTA Section -->
