@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
-  import m1 from "$lib/assets/vaginal-dryness/1.jpg";
+  import m1 from "$lib/assets/vaginal-dryness/1.png";
   import m2 from "$lib/assets/vaginal-dryness/2.jpg";
 
   gsap.registerPlugin(ScrollTrigger);
