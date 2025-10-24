@@ -190,6 +190,9 @@
             <li>Body Contouring</li>
             <li>Skin Tightening</li>
             <li>Bladder Leaks</li>
+            <li>Vaginal Laxity</li>
+            <li>Vaginal Dryness</li>
+            <li>Labial Hypertrophy</li>
           </ul>
         </div>
         <div class="p-6 text-[#C787D5] text-center">
@@ -214,6 +217,7 @@
             <li>Stress Incontinence</li>
             <li>Urge Incontinence</li>
             <li>Mixed Incontinence</li>
+            <li>Nocturia Incontinence</li>
           </ul>
         </div>
         <div class="p-6 text-[#4A0C59] text-center">
@@ -235,10 +239,10 @@
         >
           <ul class="text-[#4A0C59] font-semibold text-left p-6 space-y-2">
             <li class="font-bold">Perimenopause and Menopause</li>
-            <li>Hot Flashes</li>
-            <li>Night Sweats</li>
+            <li>Bladder Leaks</li>
+            <li>Skin Tightening</li>
             <li>Vaginal Dryness</li>
-            <li>Mood Swings</li>
+            <li>Body Contouring</li>
           </ul>
         </div>
         <div class="p-6 text-[#4A0C59] text-center">
@@ -260,9 +264,8 @@
         >
           <ul class="text-[#4A0C59] font-semibold text-left p-6 space-y-2">
             <li class="font-bold">Breast Cancer Survivors</li>
-            <li>Vaginal Rejuvenation</li>
-            <li>Painful Intercourse</li>
-            <li>Loss of Libido</li>
+            <li>Vaginal Dryness</li>
+            <li>Recurrent UTIs</li>
           </ul>
         </div>
         <div class="p-6 text-[#4A0C59] text-center">
