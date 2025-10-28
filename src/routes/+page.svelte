@@ -217,7 +217,7 @@
             <li>Stress Incontinence</li>
             <li>Urge Incontinence</li>
             <li>Mixed Incontinence</li>
-            <li>Nocturia Incontinence</li>
+            <li>Nocturia </li>
           </ul>
         </div>
         <div class="p-6 text-[#4A0C59] text-center">
