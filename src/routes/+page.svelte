@@ -104,6 +104,25 @@
       });
     });
 
+    document.querySelectorAll(".btn").forEach((btn) => {
+      btn.addEventListener("mouseenter", () => {
+        gsap.to(btn, {
+          boxShadow: "0px 10px 25px rgba(126,87,194,0.6)",
+          y: -3,
+          duration: 0.3,
+          ease: "power1.out",
+        });
+      });
+      btn.addEventListener("mouseleave", () => {
+        gsap.to(btn, {
+          boxShadow: "0px 4px 12px rgba(0,0,0,0.2)",
+          y: 0,
+          duration: 0.3,
+          ease: "power1.inOut",
+        });
+      });
+    });
+
     // 🌸 Staggered Testimonials Animation
     gsap.utils.toArray(".testimonial-card").forEach((card: any, i) => {
       gsap.from(card, {
@@ -147,10 +166,10 @@
       <p class="text-lg mb-8">
         At Dr. Corinne Sugihara, we are dedicated to assisting you through all stages of your life, because we understand the impact your health can have on your day to day activities as well as your confidence.
       </p>
-      <button class="bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition duration-300 relative overflow-hidden">
+      <a href="/contact" class="btn w-fit bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition duration-300 relative overflow-hidden">
         Book a Free Consultation
         <span class="shine"></span>
-      </button>
+      </a>
     </div>
 
     <div class="relative flex justify-center items-center">
@@ -304,7 +323,7 @@
         an individualized treatment plan to address your specific
         needs and get you the results you desire.
       </p>
-      <button class="bg-[#4A0C59] hover:bg-[#3A094A] text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 flex items-center justify-center lg:inline-flex">
+      <a href="/about" class="btn w-fit bg-[#4A0C59] hover:bg-[#3A094A] text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 flex items-center justify-center lg:inline-flex">
         Learn More About Us
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -323,7 +342,7 @@
             clip-rule="evenodd"
           />
         </svg>
-      </button>
+      </a>
     </div>
 
     <!-- Right Content - Image -->
@@ -362,12 +381,12 @@
       <p class="text-[#708399] mb-6">
         That’s why at Dr. Corinne Sugihara, we offer non-surgical, energy based micro treatments that treat your aesthetics and wellness concerns. Downtime is minimized and your body is stimulated to improve and repair itself without drugs.
       </p>
-      <button class="bg-[#4A0C59] text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-purple-800 transition duration-300 flex items-center justify-center mx-auto md:mx-0">
+      <a href="/about" class="btn w-fit bg-[#4A0C59] text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-purple-800 transition duration-300 flex items-center justify-center mx-auto md:mx-0">
         Learn More About Me
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
         </svg>
-      </button>
+      </a>
     </div>
   </div>
 </section>
@@ -485,7 +504,7 @@
     background-size: 200% 200%;
   }
 
-  button {
+  button .btn {
     position: relative;
     overflow: hidden;
   }

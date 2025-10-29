@@ -178,9 +178,9 @@
         </p>
 
         <div class="hero-stagger mt-8 flex gap-4 items-center">
-          <button class="cta-book inline-flex items-center gap-3 bg-indigo-700 hover:bg-indigo-800 text-white px-5 py-3 rounded-full transition shadow">
+          <a href="/contact" class="cta-book inline-flex items-center gap-3 bg-indigo-700 hover:bg-indigo-800 text-white px-5 py-3 rounded-full transition shadow">
             Book an appointment
-          </button>
+          </a>
           <a href="#profile" class="text-indigo-700 hover:underline">Meet the doctor</a>
         </div>
       </div>
@@ -286,7 +286,7 @@
           <a class="inline-flex items-center px-4 py-2 rounded-full bg-indigo-600 text-white shadow" href="tel:">
             Call clinic
           </a>
-          <a class="inline-flex items-center px-4 py-2 rounded-full border border-indigo-200 text-indigo-700" href="#">
+          <a href="/contact" class="inline-flex items-center px-4 py-2 rounded-full border border-indigo-200 text-indigo-700">
             Book online
           </a>
         </div>

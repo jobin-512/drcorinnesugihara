@@ -1,6 +1,7 @@
 <script>
   const year = new Date().getFullYear();
   import footer from "$lib/assets/footer.webp";
+  import logo from "$lib/assets/logo.png";
 </script>
 
 <footer
@@ -15,12 +16,7 @@
   <div class="relative grid grid-cols-1 md:grid-cols-4 gap-10 z-10">
     <!-- Column 1: Logo & Contact -->
     <div class="space-y-4">
-      <h2 class="text-white text-xl font-semibold">
-        Dr. Corinne Sugihara
-      </h2>
-      <p class="uppercase tracking-widest text-sm text-gray-300">
-        Gynecology
-      </p>
+      <img src={logo} alt="" class="invert grayscale-100 ">
 
       <div class="space-y-3 mt-4 text-sm">
         <p class="flex items-start gap-2">
@@ -66,7 +62,7 @@
     <!-- Column 4: About Us -->
     <div>
       <h3 class="text-white font-semibold text-lg mb-4">location</h3>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.726353439861!2d-117.87333772380903!3d33.612403940826326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce08edff13b31%3A0x2d126b0a89fb76d8!2s1401%20Avocado%20Ave%20Ste%20602%2C%20Newport%20Beach%2C%20CA%2092660!5e0!3m2!1sen!2sus!4v1715057066481!5m2!1sen!2sus" width="300" height="300" style="border: 0px; opacity: 1; visibility: visible;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.726353439861!2d-117.87333772380903!3d33.612403940826326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce08edff13b31%3A0x2d126b0a89fb76d8!2s1401%20Avocado%20Ave%20Ste%20602%2C%20Newport%20Beach%2C%20CA%2092660!5e0!3m2!1sen!2sus!4v1715057066481!5m2!1sen!2sus" width="300" height="150" style="border: 0px; opacity: 1; visibility: visible;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
   </div>

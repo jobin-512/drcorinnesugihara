@@ -213,8 +213,8 @@
       You deserve a healthcare partner who listens. We empower women through every stage of their journey with modern medical technology and compassion.
     </p>
     <div class="flex gap-4">
-      <button class="btn-primary">Book an Appointment</button>
-      <button class="btn-outline">Explore Services</button>
+      <a href="/contact" class="btn-primary">Book an Appointment</a>
+      <a href="/about" class="btn-outline">About Us </a>
     </div>
   </div>
 
