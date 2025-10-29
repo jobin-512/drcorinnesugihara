@@ -6,6 +6,7 @@
   import m2 from "$lib/assets/diastasis-recti/2.jpg";
   import m3 from "$lib/assets/diastasis-recti/3.jpg";
   import m4 from "$lib/assets/diastasis-recti/4.jpg";
+  import img from "$lib/assets/services/5.png"
 
 
   gsap.registerPlugin(ScrollTrigger);
@@ -95,8 +96,8 @@ Take control of your postpartum journey. Explore Diastasis Recti treatment with 
     </div>
 
     <!-- Placeholder for hero image -->
-    <div class="w-full h-72 sm:h-96 bg-gray-200/40 rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
-      [Insert Treatment Hero Image Here]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- Body content -->

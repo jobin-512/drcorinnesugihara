@@ -2,6 +2,10 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import img from "$lib/assets/services/15.png"
+  import m1 from "$lib/assets/bladder-leaks/1.png"
+  import m2 from "$lib/assets/bladder-leaks/2.jpg"
+  import m3 from "$lib/assets/bladder-leaks/3.jpg"
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -97,8 +101,8 @@ Rediscover confidence. Restore comfort. Reclaim you.
     </div>
 
     <!-- Placeholder for hero image -->
-    <div class="w-full h-72 sm:h-96 bg-gray-200/40 rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
-      [Insert Treatment Hero Image Here]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- Body content -->
@@ -106,6 +110,19 @@ Rediscover confidence. Restore comfort. Reclaim you.
       {@html body.replace(/\n/g, "<br><br>")}
     </div>
 
+    <div class="grid md:grid-cols-2 gap-6">
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m1} alt="skin tightening treatment" class="h-full">
+        </div>
+        <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m2} alt="skin tightening treatment" class="h-full">
+        </div>
+
+    </div>
+    
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m3} alt="skin tightening treatment" class="h-full">
+        </div>
 
 
     <!-- CTA Section -->

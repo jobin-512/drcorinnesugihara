@@ -2,6 +2,8 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import img from "$lib/assets/services/19.png"
+
   gsap.registerPlugin(ScrollTrigger);
 
   onMount(() => {
@@ -78,8 +80,8 @@
     </div>
 
     <!-- IMAGE / HEADER VISUAL -->
-    <div class="w-full h-80 bg-gray-100/40 rounded-3xl flex items-center justify-center text-gray-400 italic fade-in">
-      [Insert serene feminine photo or gradient illustration]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- INTRO -->

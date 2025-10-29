@@ -2,23 +2,27 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
-  import m1 from "$lib/assets/skin-tightening/1.jpg";
-  import m2 from "$lib/assets/skin-tightening/2.jpg";
-  import m3 from "$lib/assets/skin-tightening/3.jpg";
-  import img from "$lib/assets/services/11.png"
+  import m1 from "$lib/assets/vaginal-dryness/1.png";
+  import m2 from "$lib/assets/vaginal-dryness/2.jpg";
+  import img from "$lib/assets/services/12.png"
 
   gsap.registerPlugin(ScrollTrigger);
 
-  let title: string = "Skin Tightening Treatments in Newport Beach";
-  let intro: string = `Are you noticing sagging skin on your arms, abdomen, or thighs and wishing you could restore that firm, youthful contour? At Dr. Corinne Sugihara’s practice, we understand how loose skin can affect your confidence and comfort—and we’re here to help with compassionate, effective solutions.`;
+  let title: string = "Stress Incontinence Treatment for Women";
+  let intro: string = ` Regain control. Restore confidence. Live freely again.`;
   let body: string = `
-Our skin tightening treatments are designed to tighten loose skin without the downtime of surgery. Whether you’re seeking abdomen skin tightening, skin tightening for arms, or body skin tightening after weight loss, we offer advanced non-surgical skin tightening options tailored to your unique needs. Using the latest technologies—including Radiofrequency skin tightening, Morpheus8 body treatment, and Evolve Tite skin tightening—we provide safe, results-driven body tightening treatments that firm, lift, and rejuvenate.
+If you’ve ever felt that sudden embarrassment of leaking urine when coughing or sneezing, you’re not alone—and you’re not helpless. Millions of women experience stress incontinence (SUI) after childbirth, menopause, or simply as part of life’s natural changes. But here’s the truth: just because it’s common doesn’t mean you have to live with it.
 
-We focus on results that feel natural. Our personalized skin tightening procedures can target stubborn areas, helping you tighten loose skin after weight loss, reduce sagging, and enhance your overall body contour. From anti-aging skin treatments to body contouring and firming, we craft a plan that fits your goals and lifestyle.
+At Dr Corinne Sugihara’s Female Stress Urinary Incontinence Clinic, we believe every woman deserves to laugh, exercise, and move with confidence—without worrying about leaks. Dr. Corinne takes time to really listen—to your symptoms, your story, and your lifestyle—before creating a personalized stress urinary incontinence treatment plan designed around you.
 
-If you’ve been searching for “skin tightening treatments near me” or “non-surgical skin tightening near me”, Dr. Sugihara’s Newport Beach office is ready to provide a welcoming, professional experience. You’ll leave feeling not just firmer, but empowered, understood, and confident in your body again.
+Depending on your needs, treatment may include gentle pelvic floor strengthening, non-surgical options, or advanced pelvic floor surgery for stress incontinence to restore bladder support and stop leakage at its source. Our goal is to help you feel comfortable in your body again—without pads, limitations, or constant anxiety.
+
+You’ve already spent enough time managing leaks. Now it’s time to treat them—with compassion, expertise, and solutions that last.
+
+Dr Sugihara is more than a stress bladder leak specialist—she’s your partner in reclaiming confidence, comfort, and control.
 `;
-  let cta: string = "Take the first step toward a smoother, tighter, more youthful you—schedule your Skin Tightening Treatment Newport Beach consultation today.";
+
+  let cta: string = "Ready to feel like yourself again? Schedule your private consultation today and discover how compassionate, customized care can help you stop leaks for good.";
 
   onMount(() => {
     // Animate background orbs
@@ -103,7 +107,6 @@ If you’ve been searching for “skin tightening treatments near me” or “no
       {@html body.replace(/\n/g, "<br><br>")}
     </div>
 
-
     <div class="grid md:grid-cols-2 gap-6">
     <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
           <img src={m1} alt="skin tightening treatment" class="h-full">
@@ -114,9 +117,6 @@ If you’ve been searching for “skin tightening treatments near me” or “no
 
     </div>
     
-    <div class="w-full h-72 sm:h-96 rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
-      <img src={m3} alt="skin tightening treatment" class="h-full">
-    </div>
 
 
     <!-- CTA Section -->

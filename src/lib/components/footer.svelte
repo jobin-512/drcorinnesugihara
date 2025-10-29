@@ -21,9 +21,6 @@
       <p class="uppercase tracking-widest text-sm text-gray-300">
         Gynecology
       </p>
-      <p class="text-sm leading-relaxed text-gray-400">
-        Sed ut perspiciatis unde omnis natus error voluptatem doloremque laudantiumes
-      </p>
 
       <div class="space-y-3 mt-4 text-sm">
         <p class="flex items-start gap-2">
@@ -45,47 +42,31 @@
 
     <!-- Column 2: Our Services -->
     <div>
-      <h3 class="text-white font-semibold text-lg mb-4">Our Services</h3>
+      <h3 class="text-white font-semibold text-lg mb-4">Quick Links</h3>
       <ul class="space-y-1 text-sm text-gray-300">
-        <li>Bladder Leaks</li>
-        <li>Body Contouring</li>
-        <li>Diastasis Recti</li>
-        <li>Vaginal Laxity</li>
-        <li>Vaginal Dryness</li>
-        <li>Skin Tightening</li>
-        <li>Labial Hypertrophy</li>
-        <li>Stress</li>
-        <li>Urge Vaginal Dryness</li>
-        <li>Mixed</li>
+        <li><a href="/" class="hover:text-white">Home</a></li>
+        <li><a href="/treatments" class="hover:text-white">Treatments</a></li>
+        <li><a href="/about-us" class="hover:text-white">About Us</a></li>
+        <li><a href="/contact-us" class="hover:text-white">Contact Us</a></li>
+        <li><a href="/book-a-consultation" class="hover:text-white">Book a Consultation</a></li>
       </ul>
     </div>
 
     <!-- Column 3: Explore -->
     <div>
-      <h3 class="text-white font-semibold text-lg mb-4">Explore</h3>
+      <h3 class="text-white font-semibold text-lg mb-4">Services</h3>
       <ul class="space-y-1 text-sm text-gray-300">
-        <li>Skin Tightening</li>
-        <li>Vaginal Dryness</li>
-        <li>Recurrent UTIs</li>
-        <li>Body Contouring</li>
-        <li>Cellulite</li>
-        <li>Fine Lines and Wrinkles</li>
-        <li>Sunspots and Pigmentation</li>
-        <li>Scars and Stretch Marks</li>
+        <li><a href="/after-childbirth-non-Invasive-mommy-makeover" class="hover:text-white">After Childbirth / Non-Invasive Mommy Makeover</a></li>
+        <li><a href="/bladder-leaks-&-incontinence" class="hover:text-white">Bladder Leaks and Incontinence</a></li>
+        <li><a href="/perimenopause-and-menopause" class="hover:text-white">Perimenopause and Menopause</a></li>
+        <li><a href="/breast-cancer-survivors" class="hover:text-white">Breast Cancer Survivors</a></li>
       </ul>
     </div>
 
     <!-- Column 4: About Us -->
     <div>
-      <h3 class="text-white font-semibold text-lg mb-4">About Us</h3>
-      <ul class="space-y-1 text-sm text-gray-300">
-        <li>About Us</li>
-        <li>Contact Us</li>
-        <li>Book a Consultation</li>
-        <li>Landing Page for the Book</li>
-        <li>FAQ</li>
-        <li>Blog</li>
-      </ul>
+      <h3 class="text-white font-semibold text-lg mb-4">location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.726353439861!2d-117.87333772380903!3d33.612403940826326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce08edff13b31%3A0x2d126b0a89fb76d8!2s1401%20Avocado%20Ave%20Ste%20602%2C%20Newport%20Beach%2C%20CA%2092660!5e0!3m2!1sen!2sus!4v1715057066481!5m2!1sen!2sus" width="300" height="300" style="border: 0px; opacity: 1; visibility: visible;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
   </div>

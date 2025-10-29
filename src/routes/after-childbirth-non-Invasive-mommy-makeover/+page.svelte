@@ -2,6 +2,10 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import img from "$lib/assets/services/16.png"
+  import m1 from "$lib/assets/mommy-makeover/1.jpg"
+  import m2 from "$lib/assets/mommy-makeover/2.jpg"
+  import m3 from "$lib/assets/mommy-makeover/3.jpg"
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -79,8 +83,8 @@
     </div>
 
     <!-- Hero image placeholder -->
-    <div class="w-full h-80 bg-gray-100/40 rounded-3xl flex items-center justify-center text-gray-400 italic fade-in">
-      [Insert relevant soft illustration or photo]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- INTRO -->
@@ -173,6 +177,19 @@
       </ul>
     </div>
 
+    <div class="grid md:grid-cols-2 gap-6">
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m1} alt="skin tightening treatment" class="h-full">
+        </div>
+        <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m2} alt="skin tightening treatment" class="h-full">
+        </div>
+
+    </div>
+    
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m3} alt="skin tightening treatment" class="h-full">
+        </div>
 
 
     <!-- CTA -->

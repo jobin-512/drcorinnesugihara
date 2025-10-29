@@ -185,14 +185,14 @@
           class="absolute inset-0 bg-gradient-to-b to-[#4A0C59] from-transparent bg-opacity-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100"
         >
           <ul class="text-white text-left p-6 space-y-2 font-semibold">
-            <li class="font-bold">After Childbirth / Non-Invasive Mommy Makeover</li>
-            <li>Diastasis Recti</li>
-            <li>Body Contouring</li>
-            <li>Skin Tightening</li>
-            <li>Bladder Leaks</li>
-            <li>Vaginal Laxity</li>
-            <li>Vaginal Dryness</li>
-            <li>Labial Hypertrophy</li>
+            <li class="font-bold"><a href="/after-childbirth-non-Invasive-mommy-makeover">After Childbirth / Non-Invasive Mommy Makeover</a></li>
+            <li class="font-semibold"><a href="/treatments/diastasis-recti">Diastasis Recti</a></li>
+            <li class="font-semibold"><a href="/treatments/body-contouring-and-fat-reduction">Body Contouring</a></li>
+            <li class="font-semibold"><a href="/treatments/skin-tightening">Skin Tightening</a></li>
+            <li class="font-semibold"><a href="/treatments/bladder-leaks">Bladder Leaks</a></li>
+            <li class="font-semibold"><a href="/treatments/vaginal-laxity">Vaginal Laxity</a></li>
+            <li class="font-semibold"><a href="/treatments/vaginal-dryness">Vaginal Dryness</a></li>
+            <li class="font-semibold"><a href="/treatments/labial-hypertrophy">Labial Hypertrophy</a></li>
           </ul>
         </div>
         <div class="p-6 text-[#C787D5] text-center">
@@ -213,11 +213,11 @@
           class="absolute inset-0 bg-gradient-to-b to-[#E6A9C8] from-transparent bg-opacity-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100"
         >
           <ul class="text-[#4A0C59] font-semibold text-left p-6 space-y-2 ">
-            <li class="font-bold">Bladder Leaks and Incontinence</li>
-            <li>Stress Incontinence</li>
-            <li>Urge Incontinence</li>
-            <li>Mixed Incontinence</li>
-            <li>Nocturia </li>
+            <li class="font-bold"><a href="/bladder-leaks-&-incontinence">Bladder Leaks and Incontinence</a></li>
+            <li class="font-semibold"><a href="/treatments/stress-incontinence">Stress Incontinence</a></li>
+            <li class="font-semibold"><a href="/treatments/urge-incontinence">Urge Incontinence</a></li>
+            <li class="font-semibold"><a href="/treatments/mixed-incontinence">Mixed Incontinence</a></li>
+            <li class="font-semibold"><a href="/treatments/nocturia">Nocturia </a></li>
           </ul>
         </div>
         <div class="p-6 text-[#4A0C59] text-center">
@@ -238,11 +238,11 @@
           class="absolute inset-0 bg-gradient-to-b to-[#A0E2E6] from-transparent bg-opacity-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100"
         >
           <ul class="text-[#4A0C59] font-semibold text-left p-6 space-y-2">
-            <li class="font-bold">Perimenopause and Menopause</li>
-            <li>Bladder Leaks</li>
-            <li>Skin Tightening</li>
-            <li>Vaginal Dryness</li>
-            <li>Body Contouring</li>
+            <li class="font-bold"><a href="/perimenopause-and-menopause">Perimenopause and Menopause</a></li>
+            <li class="font-semibold"><a href="/treatments/bladder-leaks">Bladder Leaks</a></li>
+            <li class="font-semibold"><a href="/treatments/skin-tightening">Skin Tightening</a></li>
+            <li class="font-semibold"><a href="/treatments/vaginal-dryness">Vaginal Dryness</a></li>
+            <li class="font-semibold"><a href="/treatments/body-contouring-and-fat-reduction">Body Contouring</a></li>
           </ul>
         </div>
         <div class="p-6 text-[#4A0C59] text-center">
@@ -263,9 +263,9 @@
           class="absolute inset-0 bg-gradient-to-b to-[#D0A9E6] from-transparent bg-opacity-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100"
         >
           <ul class="text-[#4A0C59] font-semibold text-left p-6 space-y-2">
-            <li class="font-bold">Breast Cancer Survivors</li>
-            <li>Vaginal Dryness</li>
-            <li>Recurrent UTIs</li>
+            <li class="font-bold"><a href="/breast-cancer-survivors">Breast Cancer Survivors</a></li>
+            <li class="font-semibold"><a href="/treatments/vaginal-dryness">Vaginal Dryness</a></li>
+            <li class="font-semibold"><a href="/treatments/recurrent-uti">Recurrent UTIs</a></li>
           </ul>
         </div>
         <div class="p-6 text-[#4A0C59] text-center">

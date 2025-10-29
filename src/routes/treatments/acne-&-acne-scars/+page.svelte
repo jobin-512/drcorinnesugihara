@@ -2,23 +2,26 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
-  import m1 from "$lib/assets/skin-tightening/1.jpg";
-  import m2 from "$lib/assets/skin-tightening/2.jpg";
-  import m3 from "$lib/assets/skin-tightening/3.jpg";
-  import img from "$lib/assets/services/11.png"
+  import img from "$lib/assets/services/1.png"
+  import m1 from "$lib/assets/skin/1.jpg"
+  import m2 from "$lib/assets/skin/5.jpg"
+  import m3 from "$lib/assets/skin/6.jpg"
 
   gsap.registerPlugin(ScrollTrigger);
 
-  let title: string = "Skin Tightening Treatments in Newport Beach";
-  let intro: string = `Are you noticing sagging skin on your arms, abdomen, or thighs and wishing you could restore that firm, youthful contour? At Dr. Corinne Sugihara’s practice, we understand how loose skin can affect your confidence and comfort—and we’re here to help with compassionate, effective solutions.`;
+  let title: string = "Acne & Acne Scars";
+  let intro: string = `Finally—clear, confident skin you can feel good in again.`;
   let body: string = `
-Our skin tightening treatments are designed to tighten loose skin without the downtime of surgery. Whether you’re seeking abdomen skin tightening, skin tightening for arms, or body skin tightening after weight loss, we offer advanced non-surgical skin tightening options tailored to your unique needs. Using the latest technologies—including Radiofrequency skin tightening, Morpheus8 body treatment, and Evolve Tite skin tightening—we provide safe, results-driven body tightening treatments that firm, lift, and rejuvenate.
+Acne can be more than a skin concern—it can affect how you see yourself every day. Whether you’re struggling with breakouts that just won’t fade or old marks that linger long after acne is gone, you deserve compassionate, effective care that helps your skin heal beautifully. At Dr Corinne Sugihara’s clinic, we specialize in acne scar treatment for women that restores both clarity and confidence.
 
-We focus on results that feel natural. Our personalized skin tightening procedures can target stubborn areas, helping you tighten loose skin after weight loss, reduce sagging, and enhance your overall body contour. From anti-aging skin treatments to body contouring and firming, we craft a plan that fits your goals and lifestyle.
+Your journey begins with listening. Dr Sugihara understands that every woman’s skin tells a different story—hormonal changes, stress, medications, or past treatments that didn’t work. Together, you’ll explore a personalized plan that may include a Morpheus8 acne treatment, a scar reduction treatment, or a soothing acne reduction facial designed to calm inflammation, smooth texture, and renew your glow.
 
-If you’ve been searching for “skin tightening treatments near me” or “non-surgical skin tightening near me”, Dr. Sugihara’s Newport Beach office is ready to provide a welcoming, professional experience. You’ll leave feeling not just firmer, but empowered, understood, and confident in your body again.
+Our acne scar solutions clinic for women combines medical precision with an aesthetic touch. From non-surgical acne scar removal for women to rejuvenating face treatments for spots, each option supports long-term skin health—not just temporary results. Every treatment is performed with your comfort and confidence in mind, in a safe, understanding environment where your concerns are heard.
+
+Because clear, radiant skin isn’t just about appearance—it’s about feeling at home in your own skin again. Discover your path to renewal at our trusted acne reduction facial clinic for women, where compassion meets science and lasting change begins.
 `;
-  let cta: string = "Take the first step toward a smoother, tighter, more youthful you—schedule your Skin Tightening Treatment Newport Beach consultation today.";
+
+  let cta: string = "Schedule your acne scar reduction treatment for women today and experience truly personalized clear skin treatment for women’s health.";
 
   onMount(() => {
     // Animate background orbs
@@ -103,7 +106,6 @@ If you’ve been searching for “skin tightening treatments near me” or “no
       {@html body.replace(/\n/g, "<br><br>")}
     </div>
 
-
     <div class="grid md:grid-cols-2 gap-6">
     <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
           <img src={m1} alt="skin tightening treatment" class="h-full">
@@ -114,9 +116,10 @@ If you’ve been searching for “skin tightening treatments near me” or “no
 
     </div>
     
-    <div class="w-full h-72 sm:h-96 rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
-      <img src={m3} alt="skin tightening treatment" class="h-full">
-    </div>
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m3} alt="skin tightening treatment" class="h-full">
+        </div>
+
 
 
     <!-- CTA Section -->

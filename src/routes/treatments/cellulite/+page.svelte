@@ -1,27 +1,28 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { gsap } from "gsap";
+  import img from "$lib/assets/services/4.png"
   import { ScrollTrigger } from "gsap/ScrollTrigger";
-  import m1 from "$lib/assets/vaginal-dryness/1.png";
-  import m2 from "$lib/assets/vaginal-dryness/2.jpg";
+  import m1 from "$lib/assets/cellulite/1.jpg"
+  import m2 from "$lib/assets/cellulite/2.jpg"
 
   gsap.registerPlugin(ScrollTrigger);
 
-  let title: string = "Stress Incontinence Treatment for Women";
-  let intro: string = ` Regain control. Restore confidence. Live freely again.`;
+  let title: string = "Vaginal Laxity Treatment in Newport Beach";
+  let intro: string = ` Smooth, Confident, and Beautifully You.`;
   let body: string = `
-If you’ve ever felt that sudden embarrassment of leaking urine when coughing or sneezing, you’re not alone—and you’re not helpless. Millions of women experience stress incontinence (SUI) after childbirth, menopause, or simply as part of life’s natural changes. But here’s the truth: just because it’s common doesn’t mean you have to live with it.
+If you’ve ever looked in the mirror and wished the dimples on your thighs, hips, or abdomen would finally smooth out—you’re not alone. Cellulite affects most women, regardless of body type or fitness level. At Dr Corinne Sugihara’s women’s cellulite treatment clinic in Newport Beach, we offer compassionate, science-backed cellulite reduction treatment designed to help you feel more confident in your skin.
 
-At Dr Corinne Sugihara’s Female Stress Urinary Incontinence Clinic, we believe every woman deserves to laugh, exercise, and move with confidence—without worrying about leaks. Dr. Corinne takes time to really listen—to your symptoms, your story, and your lifestyle—before creating a personalized stress urinary incontinence treatment plan designed around you.
+Our EvolveX cellulite treatment uses advanced, non-invasive technology to target stubborn areas, tone underlying tissue, and tighten skin—without surgery or downtime. This gentle yet powerful cellulite treatment non-surgical option safely delivers lasting results that enhance your natural shape. Whether you’re exploring body contouring and cellulite removal, non-surgical cellulite removal for women, or simply searching for cellulite treatment near me, we’re here to help you find the most effective and comfortable path forward.
 
-Depending on your needs, treatment may include gentle pelvic floor strengthening, non-surgical options, or advanced pelvic floor surgery for stress incontinence to restore bladder support and stop leakage at its source. Our goal is to help you feel comfortable in your body again—without pads, limitations, or constant anxiety.
+For women seeking a more dramatic transformation, we also provide surgical cellulite treatment options as part of our comprehensive body cellulite treatment plans. Every care plan is personalized—because your body, goals, and comfort matter most.
 
-You’ve already spent enough time managing leaks. Now it’s time to treat them—with compassion, expertise, and solutions that last.
+Dr Sugihara takes time to listen to and understand your concerns, and to create a treatment plan that helps you rediscover smooth, firm, radiant skin. It’s not just about how you look—it’s about how you feel in your own body.
 
-Dr Sugihara is more than a stress bladder leak specialist—she’s your partner in reclaiming confidence, comfort, and control.
+If you’re ready for a smooth skin cellulite solution women trust, experience compassionate, expert cellulite therapy in Newport Beach with Dr. Corinne Sugihara today.
 `;
 
-  let cta: string = "Ready to feel like yourself again? Schedule your private consultation today and discover how compassionate, customized care can help you stop leaks for good.";
+  let cta: string = "Schedule your consultation and take the first step toward confidence that feels as good as it looks.";
 
   onMount(() => {
     // Animate background orbs
@@ -97,8 +98,8 @@ Dr Sugihara is more than a stress bladder leak specialist—she’s your partner
     </div>
 
     <!-- Placeholder for hero image -->
-    <div class="w-full h-72 sm:h-96 bg-gray-200/40 rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
-      [Insert Treatment Hero Image Here]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- Body content -->
@@ -115,7 +116,8 @@ Dr Sugihara is more than a stress bladder leak specialist—she’s your partner
         </div>
 
     </div>
-    
+
+
 
 
     <!-- CTA Section -->

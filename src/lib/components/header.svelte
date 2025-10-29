@@ -102,7 +102,7 @@
                   <ul class="space-y-1 text-sm">
                     <li><a href="/treatments/diastasis-recti" class="hover:text-purple-700">Diastasis Recti</a></li>
                     <li><a href="/treatments/skin-tightening" class="hover:text-purple-700">Skin Tightening</a></li>
-                    <li><a href="/treatments/body-contouring" class="hover:text-purple-700">Body Contouring</a></li>
+                    <li><a href="/treatments/body-contouring-and-fat-reduction" class="hover:text-purple-700">Body Contouring</a></li>
                     <li><a href="/treatments/bladder-leaks" class="hover:text-purple-700">Bladder Leaks</a></li>
                     <li><a href="/treatments/vaginal-laxity" class="hover:text-purple-700">Vaginal Laxity</a></li>
                     <li><a href="/treatments/vaginal-dryness" class="hover:text-purple-700">Vaginal Dryness</a></li>
@@ -128,7 +128,7 @@
                     <li><a href="/treatments/vaginal-dryness" class="hover:text-purple-700">Vaginal Dryness</a></li>
                     <li><a href="/treatments/bladder-leaks" class="hover:text-purple-700">Bladder Leaks</a></li>
                     <li><a href="/treatments/skin-tightening" class="hover:text-purple-700">Skin Tightening</a></li>
-                    <li><a href="/treatments/body-contouring" class="hover:text-purple-700">Body Contouring</a></li>
+                    <li><a href="/treatments/body-contouring-and-fat-reduction" class="hover:text-purple-700">Body Contouring</a></li>
                   </ul>
                 </div>
 
@@ -146,9 +146,9 @@
                   <h3 class="font-semibold text-[#6B21A8] mb-3 border-b pb-1 text-sm">Other Treatments</h3>
                   <ul class="space-y-1 text-sm">
                     <li><a href="/treatments/recurrent-utis" class="hover:text-purple-700">Recurrent UTIs</a></li>
-                    <li><a href="/treatments/skin-issues" class="hover:text-purple-700">Skin issues</a></li>
+                    <li><a href="/treatments/skin" class="hover:text-purple-700">Skin issues</a></li>
                     <li><a href="/treatments/cellulite" class="hover:text-purple-700">Cellulite</a></li>
-                    <li><a href="/treatments/acne-scars" class="hover:text-purple-700">Acne and Acne Scars</a></li>
+                    <li><a href="/treatments/acne-&-acne-scars" class="hover:text-purple-700">Acne and Acne Scars</a></li>
                   </ul>
                 </div>
               </div>
@@ -187,7 +187,7 @@
                   <ul class="ml-4 space-y-1">
                     <li><a href="/treatments/diastasis-recti">Diastasis Recti</a></li>
                     <li><a href="/treatments/skin-tightening">Skin Tightening</a></li>
-                    <li><a href="/treatments/body-contouring">Body Contouring</a></li>
+                    <li><a href="/treatments/body-contouring-and-fat-reduction">Body Contouring</a></li>
                   </ul>
                 </details>
                 <details>
@@ -198,18 +198,21 @@
                   </ul>
                 </details>
                 <details>
-                  <summary class="font-semibold text-[#6B21A8] cursor-pointer">Menopause</summary>
+                  <summary class="font-semibold text-[#6B21A8] cursor-pointer">Perimenopause and Menopause</summary>
                   <ul class="ml-4 space-y-1">
                     <li><a href="/treatments/vaginal-dryness">Vaginal Dryness</a></li>
+                    <li><a href="/treatments/bladder-leaks" >Bladder Leaks</a></li>
+                    <li><a href="/treatments/skin-tightening">Skin Tightening</a></li>
+                    <li><a href="/treatments/body-contouring-and-fat-reduction" >Body Contouring</a></li>
                   </ul>
                 </details>
                 <details>
                   <summary class="font-semibold text-[#6B21A8] cursor-pointer">Other Treatments</summary>
                   <ul class="ml-4 space-y-1">
                     <li><a href="/treatments/recurrent-utis" >Recurrent UTIs</a></li>
-                    <li><a href="/treatments/skin-issues" >Skin issues</a></li>
+                    <li><a href="/treatments/skin" >Skin issues</a></li>
                     <li><a href="/treatments/cellulite">Cellulite</a></li>
-                    <li><a href="/treatments/acne-scars">Acne and Acne Scars</a></li>
+                    <li><a href="/treatments/acne-&-acne-scars">Acne and Acne Scars</a></li>
                   </ul>
                 </details>
               </div>

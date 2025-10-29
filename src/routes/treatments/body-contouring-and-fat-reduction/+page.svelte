@@ -5,6 +5,8 @@
   import m1 from "$lib/assets/body-contouring-and-fat-reduction/1.jpg";
   import m2 from "$lib/assets/body-contouring-and-fat-reduction/2.jpg";
   import m3 from "$lib/assets/body-contouring-and-fat-reduction/3.jpg";
+  import img from "$lib/assets/services/3.png"
+
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -95,8 +97,8 @@ Take the first step toward your transformation—because you deserve body contou
     </div>
 
     <!-- Placeholder for hero image -->
-    <div class="w-full h-72 sm:h-96 bg-gray-200/40 rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
-      [Insert Treatment Hero Image Here]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- Body content -->

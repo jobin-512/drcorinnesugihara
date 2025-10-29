@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+
+ /* Buttons */
+  .btn-primary {
+    @apply bg-[#4A0C59] hover:bg-[#3A0A49] text-white px-6 py-3 rounded-full shadow-md transition transform hover:-translate-y-1 hover:shadow-xl;
+  }
+  .btn-outline {
+    @apply border border-[#4A0C59] text-[#4A0C59] hover:bg-[#4A0C59] hover:text-white px-6 py-3 rounded-full transition transform hover:-translate-y-1 hover:shadow-md;
+  }
+
+  /* Category Cards */
+  .cat-card {
+    @apply bg-gradient-to-b from-purple-50 to-white rounded-3xl shadow-md hover:shadow-2xl p-8 transition-all duration-300 border border-purple-100 transform hover:-translate-y-2 hover:scale-[1.03];
+  }
+  .cat-card h2 {
+    @apply text-lg font-semibold text-[#4A0C59] border-b-2 border-purple-200 pb-2 mb-4;
+  }
+  .cat-card a {
+    @apply text-gray-700 hover:text-[#4A0C59] transition-colors text-sm block hover:translate-x-1 transform duration-200;
+  }
+
+  /* Services */
+  .service-card {
+    @apply rounded-3xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-[1.03] flex flex-col items-center text-center space-y-4 relative overflow-hidden;
+  }
+  .service-card img {
+    @apply opacity-90 w-24 transition-transform duration-500 hover:scale-110;
+  }
+  .service-card h3 {
+    @apply text-xl font-semibold text-gray-800;
+  }
+  .service-card p {
+    @apply text-gray-600 text-sm leading-relaxed;
+  }
+  .service-card::after {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-t from-white/10 to-transparent opacity-0 transition-opacity duration-500;
+  }
+  .service-card:hover::after {
+    opacity: 1;
+  }

@@ -2,6 +2,10 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import img from "$lib/assets/services/18.png"
+  import m1 from "$lib/assets/breast-cancer-survivors/1.png"
+  import m2 from "$lib/assets/breast-cancer-survivors/2.jpg"
+
   gsap.registerPlugin(ScrollTrigger);
 
   onMount(() => {
@@ -82,8 +86,8 @@
     </div>
 
     <!-- IMAGE / VISUAL BLOCK -->
-    <div class="w-full h-80 bg-gray-100/40 rounded-3xl flex items-center justify-center text-gray-400 italic fade-in">
-      [Insert soft photo or calming illustration]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- INTRO -->
@@ -189,6 +193,17 @@
         From holistic hormone support to nutritional counseling and movement guidance, we help you live with strength, vitality, and joy.
       </p>
     </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m1} alt="skin tightening treatment" class="h-full">
+        </div>
+        <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+          <img src={m2} alt="skin tightening treatment" class="h-full">
+        </div>
+
+    </div>
+    
 
     <!-- SECTION: Compassion -->
     <div class="fade-in bg-white rounded-3xl shadow-lg p-10 space-y-6">

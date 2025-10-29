@@ -50,74 +50,16 @@
       Our doctors will receive or return any urgent calls.
     </p>
 
-    <form on:submit={handleSubmit} class="space-y-4">
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div class="relative">
-          <input
-            type="text"
-            placeholder="Name"
-            bind:value={name}
-            class="w-full rounded-full border border-gray-300 py-3 pl-10 pr-4 focus:ring-2 focus:ring-pink-400 focus:outline-none"
-          />
-          <span class="absolute left-3 top-3.5 text-gray-400">
-            <i class="fa-regular fa-user"></i>
-          </span>
+    <form class="bg-white shadow-lg rounded-2xl max-w-lg mx-auto md:mx-0">
+        <div class="space-y-5">
+          <input type="text" placeholder="Full Name" class="w-full px-5 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"/>
+          <input type="email" placeholder="Email Address" class="w-full px-5 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"/>
+          <textarea rows="4" placeholder="Your Message" class="w-full px-5 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"></textarea>
+          <button type="submit" class="bg-[#6A1B9A] text-white font-semibold py-3 px-10 rounded-full shadow-md hover:bg-[#4A0C59] transition duration-300">
+            Submit
+          </button>
         </div>
-
-        <div class="relative">
-          <input
-            type="email"
-            placeholder="Email"
-            bind:value={email}
-            class="w-full rounded-full border border-gray-300 py-3 pl-10 pr-4 focus:ring-2 focus:ring-pink-400 focus:outline-none"
-          />
-          <span class="absolute left-3 top-3.5 text-gray-400">
-            <i class="fa-regular fa-envelope"></i>
-          </span>
-        </div>
-
-        <div class="relative">
-          <input
-            type="tel"
-            placeholder="Phone"
-            bind:value={phone}
-            class="w-full rounded-full border border-gray-300 py-3 pl-10 pr-4 focus:ring-2 focus:ring-pink-400 focus:outline-none"
-          />
-          <span class="absolute left-3 top-3.5 text-gray-400">
-            <i class="fa-solid fa-phone"></i>
-          </span>
-        </div>
-
-        <div class="relative">
-          <input
-            type="date"
-            bind:value={date}
-            class="w-full rounded-full border border-gray-300 py-3 pl-10 pr-4 focus:ring-2 focus:ring-pink-400 focus:outline-none"
-          />
-          <span class="absolute left-3 top-3.5 text-gray-400">
-            <i class="fa-regular fa-calendar"></i>
-          </span>
-        </div>
-
-        <div class="relative sm:col-span-2">
-          <input
-            type="time"
-            bind:value={time}
-            class="w-full rounded-full border border-gray-300 py-3 pl-10 pr-4 focus:ring-2 focus:ring-pink-400 focus:outline-none"
-          />
-          <span class="absolute left-3 top-3.5 text-gray-400">
-            <i class="fa-regular fa-clock"></i>
-          </span>
-        </div>
-      </div>
-
-      <button
-        type="submit"
-        class="w-full bg-purple-800 hover:bg-purple-900 text-white font-semibold py-4 rounded-full mt-6 transition duration-300"
-      >
-        Make Appointment →
-      </button>
-    </form>
+      </form>
   </div>
   {#if message}
   <p class="mt-4 text-center text-sm font-medium">{message}</p>

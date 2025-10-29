@@ -4,6 +4,7 @@
   import { ScrollTrigger } from "gsap/ScrollTrigger";
   import m1 from "$lib/assets/vaginal-dryness/1.png";
   import m2 from "$lib/assets/vaginal-dryness/2.jpg";
+  import img from "$lib/assets/services/14.png"
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -97,8 +98,8 @@ Let’s help you feel whole, comfortable, and confident again—naturally.
     </div>
 
     <!-- Placeholder for hero image -->
-    <div class="w-full h-72 sm:h-96 bg-gray-200/40 rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
-      [Insert Treatment Hero Image Here]
+    <div class="w-full h-72 sm:h-96  rounded-3xl shadow-inner fade-in flex items-center justify-center text-gray-400 text-lg italic">
+      <img src={img} alt="">
     </div>
 
     <!-- Body content -->
